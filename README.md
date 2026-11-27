@@ -61,28 +61,28 @@ An organization needs to limit security-reporting group membership to users with
 
 ## Screenshot evidence
 
-Screenshots are maintained locally until reviewed and redacted for public release. Expected filenames:
+The following 15 screenshots were uploaded to the [`screenshots/`](screenshots/) directory. The final automatic removal screenshot is pending.
 
 | # | Evidence |
 |---|---|
-| 01 | `01-identity-governance-catalog-created.png` |
-| 02 | `02-security-group-created.png` |
-| 03 | `03-catalog-resource-added.png` |
-| 04 | `04-access-package-resource-role.png` |
-| 05 | `05-access-package-approval-workflow.png` |
-| 06 | `06-requestor-information.png` |
-| 07 | `07-access-package-lifecycle.png` |
-| 08 | `08-access-package-review.png` |
-| 09 | `09-access-package-created.png` |
-| 10 | `10-before-access-assignment.png` |
-| 11 | `11-employee-access-request.png` |
-| 12 | `12-pending-access-approval.png` |
-| 13 | `13-approved-access-request.png` |
-| 14 | `14-security-group-membership-after-approval.png` |
-| 15 | `15-access-package-assignment-expiration.png` |
-| 16 | `16-automatic-access-removal.png` — **pending** |
+| 01 | [01 — Identity Governance Catalog Created.png](screenshots/01%20%E2%80%94%20Identity%20Governance%20Catalog%20Created.png) |
+| 02 | [02 — Security Group Created.png](screenshots/02%20%E2%80%94%20Security%20Group%20Created.png) |
+| 03 | [03 — Catalog Resource Added.png](screenshots/03%20%E2%80%94%20Catalog%20Resource%20Added.png) |
+| 04 | [04-access-package-resource-role.png](screenshots/04-access-package-resource-role.png) |
+| 05 | [05 — Approval Workflow Configuration.png](screenshots/05%20%E2%80%94%20Approval%20Workflow%20Configuration.png) |
+| 06 | [06-requestor-information.png](screenshots/06-requestor-information.png) |
+| 07 | [07-access-package-lifecycle.png](screenshots/07-access-package-lifecycle.png) |
+| 08 | [08-access-package-review.png](screenshots/08-access-package-review.png) |
+| 09 | [09 — Access Package Created.png](screenshots/09%20%E2%80%94%20Access%20Package%20Created.png) |
+| 10 | [10-before-access-assignment.png](screenshots/10-before-access-assignment.png) |
+| 11 | [11-employee-access-request.png](screenshots/11-employee-access-request.png) |
+| 12 | [12-pending-access-approval.png](screenshots/12-pending-access-approval.png) |
+| 13 | [13-approved-access-request.png](screenshots/13-approved-access-request.png) |
+| 14 | [14-security-group-membership-after-approval.png](screenshots/14-security-group-membership-after-approval.png) |
+| 15 | [15-access-package-assignment-expiration.png](screenshots/15-access-package-assignment-expiration.png) |
+| 16 | Automatic access removal — **pending verification** |
 
-Do not publish unredacted emails, tenant IDs, object IDs, correlation IDs, tokens, or other sensitive identifiers.
+**Public portfolio note:** Review images for email addresses, tenant IDs, object IDs, tokens, and other sensitive identifiers; redact where needed.
 
 ## Security significance
 - **Least privilege:** Assignment uses the group **Member** role, not Owner.
